@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+   
+    max-width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.897);
+    
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 35%;
+}
+
+.menu li h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.menu li h1 #m-estilo {
+    color: #FD3535;
+    text-decoration: none;
+}
+
+.menu li h1 #n-estilo {
+    color: #3AF5FE;
+    text-decoration: none;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20%;
+    padding: 15px;
+    height: 80vh;
+    width: 100%;
+    color: #fff;
+}
+
+.fundo-container {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.fundo-container img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.fundo-container::after {
+    content: '';
+    left: 0;
+    top: 0;
+    background: linear-gradient(96deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.36738445378151263) 49%, rgba(0,0,0,0.8) 100%);
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.fundo-container img {
+    width: 100vw;
+    object-fit: cover;
+
+}
+
+.conteudo h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.conteudo h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #3AF5FE;
+}
+
+.imagem .capa-jornal {
+    width: 400px;
+}
+
+.container-texto {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fundo-texto {
+    margin-top: 150px;
+    background: #fff;
+    width: 80%;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.fundo-texto p {
+    margin: 20px;
+}
+
+.fundo-texto h1 {
+    margin-bottom: 20px;
+}
+
+.fundo-texto span h4 {
+    margin: 20px 0;
+    color: gray;
+}
+.fundo-texto .container-video {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.fundo-texto .video {
+    margin: 50px;
+}
+
+.fundo-texto .conteudo-imagens {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.fundo-texto .conteudo-imagens img {
+    width: 600px;
+}
+
+.fundo-texto .img-feminismo {
+    width: 400px;
+}
+
+.fundo-texto .conteudo-imagens.fe1 img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.fundo-texto .conteudo-imagens.fe2 img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.fundo-texto .conteudo-imagens.fe3 img {
+    height: 550px;
+    object-fit: cover;
+}
+
+a, span {
+    text-decoration: underline;
+    color: #289096;
+}

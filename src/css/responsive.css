@@ -1,0 +1,54 @@
+@media (max-width: 1280px) {
+    .container {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+        padding: 50px;
+        gap: 20px;
+        margin-top: 30%;
+    }
+
+    .imagem .capa-jornal {
+        width: 300px;
+    }
+
+    .container .conteudo {
+        order: 1;
+    }
+
+    .conteudo-imagens.fe1 img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 620px) {
+    .conteudo-imagens.fe2 img {
+        width: 380px;
+    }
+}
+
+@media (max-width: 520px) {
+    .conteudo-imagens.fe2 img {
+        width: 270px;
+    }
+
+    .conteudo-imagens.fe3 img {
+        width: 320px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .imagem .capa-jornal {
+        width: 300px;
+    }
+
+    .conteudo-imagens.fe1 img, .conteudo-imagens.fe2 img, .conteudo-imagens.fe3 img {
+        width: 250px;
+    }
+}
